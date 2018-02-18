@@ -1,0 +1,136 @@
+/*Base Styles*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+@font-face {
+font-family: 'wisdom script';
+src: url('css/fonts/wisdom-script.otf');
+font-weight: normal;
+font-style: normal;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+/*Give equal height to two sections*/
+#about, #image {
+  height: 300px;
+}
+
+#description {
+  height: 150px;
+}
+
+.logo {
+  color: #77a466;
+}
+
+/*GRID Styling*/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  height: 210px;
+  float: left;
+  width: 380px;
+}
+
+/*HEADER Styling*/
+header {
+  height: 100px;
+}
+
+h1 {
+  text-size: 30px;
+}
+
+/*NAVIGATION styling*/
+nav {
+  float: right;
+  padding: 75px 40px;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #77a466;
+  padding-left: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+}
+
+/*IMAGE SECTION*/
+#image {
+  background: url('../img/download.jpg');
+  background-size: cover;
+  padding: 20px 20px;
+  border-top: #77a466 10px;
+  border-bottom: #77a466 10px;
+}
+
+
+
+/*DESCRIPTION SECTION*/
+#description h3 {
+  color: #77a466;
+}
+
+/*ABOUT SECTION*/
+
+h3 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#middle-box {
+  border: solid #dedbdc 1px;
+  padding-left: 10px;
+}
+
+#left-box {
+  border-top: solid #dedbdc 1px;
+  border-bottom: solid #dedbdc 1px;
+}
+
+#right-box {
+  border-top: solid #dedbdc 1px;
+  border-bottom: solid #dedbdc 1px;
+  padding-left: 20px;
+}
+
+/*FOOTER SECTION*/
+footer {
+
+  text-align: center;
+}
+
+h3 footer {
+  font-size: 16px;
+}
+.accent {
+  color: #77a466;
+}
+.fresh {
+  font-family: 'wisdom script', Arial, sans-serif;
+  text-transform: lowercase;
+  font-style: italic;
+}
